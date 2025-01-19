@@ -1,0 +1,67 @@
+{
+  "gl2_receive_timestamp": "2025-01-19 16:57:18.642",
+  "gl2_remote_ip": "172.99.0.4",
+  "gl2_remote_port": 36317,
+  "openshift": {
+    "sequence": 1737305838637642500,
+    "cluster_id": "2ae3d977-4d40-475f-a6cd-ad6fcc91ea4c"
+  },
+  "annotations": {
+    "authorization.k8s.io/decision": "allow",
+    "authorization.k8s.io/reason": ""
+  },
+  "source": "ba-c2-aa-ef-1b-82",
+  "gl2_source_input": "678ac244169d1b7137cd8dc8",
+  "gl2_processing_timestamp": "2025-01-19 16:57:18.647",
+  "hostname": "ba-c2-aa-ef-1b-82",
+  "log_type": "audit",
+  "application_name": "ocp",
+  "apiVersion": "audit.k8s.io/v1",
+  "gl2_source_node": "dafc5dce-7b85-47c4-b7d5-e1ee1462941c",
+  "gl2_processing_duration_ms": 5,
+  "timestamp": "2025-01-19T16:57:18.636Z",
+  "auditID": "4fba0c85-218b-494e-b173-b00955e3cc55",
+  "requestReceivedTimestamp": "2025-01-19T16:57:18.385059Z",
+  "objectRef": {
+    "apiVersion": "v1",
+    "resource": "pods",
+    "subresource": "attach",
+    "name": "ba-c2-aa-ef-1b-82-debug-psfrp",
+    "namespace": "openshift-debug-h8jfq"
+  },
+  "gl2_accounted_message_size": 1908,
+  "level": "RequestResponse",
+  "k8s_audit_level": "RequestResponse",
+  "kind": "Event",
+  "streams": [
+    "000000000000000000000001",
+    "678bd0ca741bc96a2f656c9c"
+  ],
+  "verb": "create",
+  "gl2_message_id": "01JHZQYN1C04E7HRSRSJA0AP21",
+  "userAgent": "oc/4.14.0 (darwin/arm64) kubernetes/286cfa5",
+  "requestURI": "/api/v1/namespaces/openshift-debug-h8jfq/pods/ba-c2-aa-ef-1b-82-debug-psfrp/attach?container=container-00&stdin=true&stdout=true&tty=true",
+  "message": "{\"@timestamp\":\"2025-01-19T16:57:18.636536367Z\",\"annotations\":{\"authorization.k8s.io/decision\":\"allow\",\"authorization.k8s.io/reason\":\"\"},\"apiVersion\":\"audit.k8s.io/v1\",\"app_name\":\"ocp\",\"auditID\":\"4fba0c85-218b-494e-b173-b00955e3cc55\",\"hostname\":\"ba-c2-aa-ef-1b-82\",\"k8s_audit_level\":\"RequestResponse\",\"kind\":\"Event\",\"level\":\"RequestResponse\",\"log_source\":\"kubeAPI\",\"log_type\":\"audit\",\"objectRef\":{\"apiVersion\":\"v1\",\"name\":\"ba-c2-aa-ef-1b-82-debug-psfrp\",\"namespace\":\"openshift-debug-h8jfq\",\"resource\":\"pods\",\"subresource\":\"attach\"},\"openshift\":{\"cluster_id\":\"2ae3d977-4d40-475f-a6cd-ad6fcc91ea4c\",\"sequence\":1737305838637642369},\"requestReceivedTimestamp\":\"2025-01-19T16:57:18.385059Z\",\"requestURI\":\"/api/v1/namespaces/openshift-debug-h8jfq/pods/ba-c2-aa-ef-1b-82-debug-psfrp/attach?container=container-00&stdin=true&stdout=true&tty=true\",\"responseStatus\":{\"code\":101,\"metadata\":{}},\"sourceIPs\":[\"172.99.0.1\"],\"stage\":\"ResponseStarted\",\"stageTimestamp\":\"2025-01-19T16:57:18.628041Z\",\"user\":{\"groups\":[\"system:masters\",\"system:authenticated\"],\"username\":\"system:admin\"},\"userAgent\":\"oc/4.14.0 (darwin/arm64) kubernetes/286cfa5\",\"verb\":\"create\"}",
+  "responseStatus": {
+    "metadata": {},
+    "code": 101
+  },
+  "app_name": "ocp",
+  "stageTimestamp": "2025-01-19T16:57:18.628041Z",
+  "sourceIPs": [
+    "172.99.0.1"
+  ],
+  "@timestamp": "2025-01-19T16:57:18.636536367Z",
+  "stage": "ResponseStarted",
+  "facility_num": 1,
+  "log_source": "kubeAPI",
+  "_id": "714ae470-d686-11ef-b2fb-0242ac120002",
+  "facility": "user-level",
+  "user": {
+    "groups": [
+      "system:masters",
+      "system:authenticated"
+    ],
+    "username": "system:admin"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "gl2_receive_timestamp": "2025-01-19 16:21:21.079",
+  "gl2_remote_ip": "172.99.0.4",
+  "gl2_remote_port": 60681,
+  "openshift": {
+    "sequence": 1737303681077649400,
+    "cluster_id": "2ae3d977-4d40-475f-a6cd-ad6fcc91ea4c"
+  },
+  "source": "ba-c2-aa-ef-1b-82",
+  "gl2_source_input": "678ac244169d1b7137cd8dc8",
+  "gl2_processing_timestamp": "2025-01-19 16:21:21.080",
+  "hostname": "ba-c2-aa-ef-1b-82",
+  "log_type": "audit",
+  "application_name": "ocp",
+  "apiVersion": "audit.k8s.io/v1",
+  "gl2_source_node": "dafc5dce-7b85-47c4-b7d5-e1ee1462941c",
+  "gl2_processing_duration_ms": 1,
+  "timestamp": "2025-01-19T16:21:21.076Z",
+  "auditID": "24e55dbf-28ee-4882-9199-8dccf8bcc2b3",
+  "requestReceivedTimestamp": "2025-01-19T16:21:21.056700Z",
+  "objectRef": {
+    "apiVersion": "v1",
+    "resource": "nodes"
+  },
+  "gl2_accounted_message_size": 1443,
+  "level": "Metadata",
+  "k8s_audit_level": "Metadata",
+  "kind": "Event",
+  "streams": [
+    "000000000000000000000001",
+    "678bd0ca741bc96a2f656c9c"
+  ],
+  "verb": "list",
+  "gl2_message_id": "01JHZNWT1M04BZNR85MN0VYD9M",
+  "userAgent": "oc/4.17.0 (linux/amd64) kubernetes/f4525b8",
+  "requestURI": "/api/v1/nodes?limit=500",
+  "message": "{\"@timestamp\":\"2025-01-19T16:21:21.076367163Z\",\"apiVersion\":\"audit.k8s.io/v1\",\"app_name\":\"ocp\",\"auditID\":\"24e55dbf-28ee-4882-9199-8dccf8bcc2b3\",\"hostname\":\"ba-c2-aa-ef-1b-82\",\"k8s_audit_level\":\"Metadata\",\"kind\":\"Event\",\"level\":\"Metadata\",\"log_source\":\"kubeAPI\",\"log_type\":\"audit\",\"objectRef\":{\"apiVersion\":\"v1\",\"resource\":\"nodes\"},\"openshift\":{\"cluster_id\":\"2ae3d977-4d40-475f-a6cd-ad6fcc91ea4c\",\"sequence\":1737303681077649459},\"requestReceivedTimestamp\":\"2025-01-19T16:21:21.056700Z\",\"requestURI\":\"/api/v1/nodes?limit=500\",\"responseStatus\":{\"code\":401,\"message\":\"Unauthorized\",\"metadata\":{},\"reason\":\"Unauthorized\",\"status\":\"Failure\"},\"sourceIPs\":[\"172.99.0.106\"],\"stage\":\"ResponseStarted\",\"stageTimestamp\":\"2025-01-19T16:21:21.065891Z\",\"user\":{},\"userAgent\":\"oc/4.17.0 (linux/amd64) kubernetes/f4525b8\",\"verb\":\"list\"}",
+  "responseStatus": {
+    "reason": "Unauthorized",
+    "metadata": {},
+    "code": 401,
+    "message": "Unauthorized",
+    "status": "Failure"
+  },
+  "app_name": "ocp",
+  "stageTimestamp": "2025-01-19T16:21:21.065891Z",
+  "sourceIPs": [
+    "172.99.0.106"
+  ],
+  "@timestamp": "2025-01-19T16:21:21.076367163Z",
+  "stage": "ResponseStarted",
+  "facility_num": 1,
+  "log_source": "kubeAPI",
+  "_id": "6b482471-d681-11ef-b2fb-0242ac120002",
+  "facility": "user-level",
+  "user": {}
+}
